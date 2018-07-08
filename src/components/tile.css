@@ -1,0 +1,47 @@
+.tile{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:250px;
+    margin:10px;
+}
+.icon{
+    height:90px;
+    width:90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cap{
+    background-image: url('../assets/cap.png');
+}
+.asl{
+    background-image: url('../assets/asl.png');
+}
+.dev-mountain{
+    background-image: url('../assets/dm.png');
+}
+.gym-project{
+    background-image: url('../assets/gym-project.png');
+}
+.smaller-icon{
+    margin:10px;
+    height:65px;
+    width:65px;
+}
+.smallest-icon{
+    height:35px;
+    width:35px;
+}
+.code-bar{
+    background-image: url('../assets/dm2.png');
+}
+.tile-title{
+    font-size: 1.2em;
+    margin-bottom:20px;
+    margin-top:0px;
+}
+.tile-description{
+    text-align: center;
+}
